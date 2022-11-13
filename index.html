@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahatmaditya FRS</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <!-- Web icon -->
+    <link rel="icon" href="dist/img/favicon.ico" />
+  </head>
+  <body class="bg-slate-900">
+    <!-- Navbar Start  -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a
+              href="#home"
+              class="font-bold text-lg text-sky-400 block py-6 lg:text-2xl"
+              >Mahatmaditya</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="btn-hamburger"
+              name="burger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="w-[30px] h-[2px] my-2 block bg-slate-100 origin-top-left transition duration-300 ease-in-out rounded-lg"
+              ></span>
+              <span
+                class="w-[30px] h-[2px] my-2 block bg-slate-100 transition duration-300 ease-in-out rounded-lg"
+              ></span>
+              <span
+                class="w-[30px] h-[2px] my-2 block bg-slate-100 origin-bottom-left transition duration-300 ease-in-out rounded-lg"
+              ></span>
+            </button>
+            <!-- lg: for responsive -->
+            <!-- change absolute to static  -->
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-slate-900 shadow-md shadow-slate-500/50 rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-non"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base font-semibold text-slate-200 py-2 mx-8 flex group-hover:text-sky-400"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#projects"
+                    class="text-base font-semibold text-slate-200 py-2 mx-8 flex group-hover:text-sky-400"
+                    >Projects</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#certificates"
+                    class="text-base font-semibold text-slate-200 py-2 mx-8 flex group-hover:text-sky-400"
+                    >Certificates</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-28">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text font-semibold text-xl text-slate-50 lg:text-3xl">
+              Hi there<span class="animate-waving-hand">👋</span>, I'm
+              <span
+                class="mt-1 block font-bold text-3xl text-sky-400 lg:text-5xl"
+                >Mahatmaditya Favian R.S</span
+              >
+            </h1>
+            <h3 class="text-sky-500 font-medium text-lg mb-5 mt-1 lg:text-2xl">
+              <span class="text-slate-300">Front-end Web Developer | </span>
+              Data Analyst
+            </h3>
+            <!-- class leading-relaxed is for give more space between words -->
+            <p class="text-slate-100 font-medium mb-6 leading-relaxed">
+              Computer science student at Bina Nusantara University. Have a high
+              interest in Front-end Web Development and Data Analysis
+            </p>
+
+            <!-- Button -->
+            <a
+              href="#"
+              class="text-base font-semibold text-slate-50 bg-sky-500 py-2 px-8 rounded-full hover:bg-sky-600 hover:text-slate-200 active:bg-sky-700 focus:outline-none focus:ring focus:ring-sky-300 transition duration-300 ease-in-out"
+              >Download My CV</a
+            >
+
+            <!-- Social Media -->
+
+            <div class="mt-6 ml-2 flex flex-wrap space-x-2">
+              <!-- Instagram -->
+              <a
+                href="https://www.instagram.com/xmfrs_/"
+                rel="noreferrer"
+                target="_blank"
+                class="bg-slate-200 py-1 px-1 rounded-xl hover:translate-y-2 hover:bg-slate-50 transition duration-400 ease-in-out"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  class="w-7 h-7"
+                  style="color: #c13584"
+                >
+                  <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    fill="currentColor"
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                  />
+                </svg>
+              </a>
+              <!-- Github -->
+              <a
+                href="https://github.com/Mafarasya"
+                rel="noreferrer"
+                target="_blank"
+                class="bg-slate-200 py-1 px-1 rounded-xl hover:translate-y-2 hover:bg-slate-50 transition duration-400 ease-in-out"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 496 512"
+                  class="w-7 h-7"
+                  style="color: #333"
+                >
+                  <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    fill="currentColor"
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                  />
+                </svg>
+              </a>
+              <!-- Linkedin -->
+              <a
+                href="https://www.linkedin.com/in/mahatmadityafrs/"
+                rel="noreferrer"
+                target="_blank"
+                class="bg-slate-200 py-1 px-1 rounded-xl hover:translate-y-2 hover:bg-slate-50 transition duration-400 ease-in-out"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  class="w-7 h-7"
+                  style="color: #0077b5"
+                >
+                  <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10 relative lg:mt-0 lg:flex lg:flex-row-reverse">
+              <img
+                src="dist/img/resize-profile.avif"
+                alt="Mahatmaditya FRS"
+                class="max-w-full mx-auto self-end"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Projects Section Start -->
+
+    <section id="projects" class="pt-20">
+      <div class="container">
+        <div class="w-full">
+          <div class="mx-auto max-w-screen-xl px-4 py-10">
+            <h3 class="text-slate-50 font-bold text-2xl">
+              Recent <span class="text-sky-400">Projects</span>
+            </h3>
+
+            <div class="flex flex-col gap-6 mt-5">
+              <!-- SIMPLE LANDING PAGE START -->
+              <div
+                class="flex flex-col items-center bg-slate-800 gap-x-8 rounded-md px-4 py-4 lg:flex-row"
+              >
+                <div class="shrink-0">
+                  <a
+                    href="https://parsya-simple-landing-page.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src="dist/img/projects/SimpleLandingPage.avif"
+                      alt="Simple Landing Page"
+                      loading="lazy"
+                      class="h-36 w-60 rounded-md transition duration-200 ease-in-out hover:translate-y-1"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <div
+                    class="flex flex-col items-center gap-y-2 lg:flex-row gap-x-2"
+                  >
+                    <a
+                      href="https://parsya-simple-landing-page.netlify.app/"
+                      rel="noreferrer"
+                      target="_blank"
+                      class="text-slate-50 hover:text-sky-400"
+                    >
+                      <div class="text-xl font-semibold">
+                        Simple Landing Page
+                      </div>
+                    </a>
+                    <div class="flex gap-2">
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-fuchsia-400 text-fuchsia-900"
+                      >
+                        HTML
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-amber-400 text-amber-900"
+                      >
+                        CSS
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-green-400 text-green-900"
+                      >
+                        JavaScript
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 text-gray-400">
+                    I created this website to improve my Front-End skills
+                    without using the Framework and at the same time to work on
+                    the challenges given by FreeCodeCamp in completing the Web
+                    Design certification.
+                  </p>
+                </div>
+              </div>
+              <!-- SIMPLE LANDING PAGE END -->
+
+              <!-- LINKTREE CLONE START -->
+              <div
+                class="flex flex-col items-center bg-slate-800 gap-x-8 rounded-md px-4 py-4 lg:flex-row"
+              >
+                <div class="shrink-0">
+                  <a
+                    href="https://parsya-link.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src="dist/img/projects/linktree.avif"
+                      alt="Simple Landing Page"
+                      loading="lazy"
+                      class="h-36 w-60 rounded-md transition duration-200 ease-in-out hover:translate-y-1"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <div
+                    class="flex flex-col items-center gap-y-2 lg:flex-row gap-x-2"
+                  >
+                    <a
+                      href="https://parsya-link.netlify.app/"
+                      rel="noreferrer"
+                      target="_blank"
+                      class="text-slate-50 hover:text-sky-400"
+                    >
+                      <div class="text-xl font-semibold">
+                        Linktree Clone Profile
+                      </div>
+                    </a>
+                    <div class="flex gap-2">
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-fuchsia-400 text-fuchsia-900"
+                      >
+                        HTML
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-amber-400 text-amber-900"
+                      >
+                        CSS
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-green-400 text-green-900"
+                      >
+                        JavaScript
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 text-gray-400">
+                    This linktree clone website was created to help me to host
+                    all the important links that can be shared with the
+                    audience.
+                  </p>
+                </div>
+              </div>
+              <!-- LINKTREE CLONE END -->
+
+              <!-- DRUM KIT START -->
+              <div
+                class="flex flex-col items-center bg-slate-800 gap-x-8 rounded-md px-4 py-4 lg:flex-row"
+              >
+                <div class="shrink-0">
+                  <a
+                    href="https://parsya-drumkit.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                    ><img
+                      src="dist/img/projects/drumKit.avif"
+                      alt="Simple Todo List"
+                      loading="lazy"
+                      class="h-36 w-60 rounded-md transition duration-200 ease-in-out hover:translate-y-1"
+                  /></a>
+                </div>
+                <div>
+                  <div
+                    class="flex flex-col items-center gap-y-2 lg:flex-row lg:gap-x-2"
+                  >
+                    <a
+                      href="https://parsya-drumkit.netlify.app/"
+                      rel="noreferrer"
+                      target="_blank"
+                      class="text-slate-50 hover:text-sky-400"
+                    >
+                      <div class="text-xl font-semibold">Drum Kit</div>
+                    </a>
+                    <div class="flex gap-2">
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-fuchsia-400 text-fuchsia-900"
+                      >
+                        HTML
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-amber-400 text-amber-900"
+                      >
+                        CSS
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-green-400 text-green-900"
+                      >
+                        JavaScript
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 text-gray-400">
+                    I created this website to complete the challenges given by
+                    the web development course that I took. The Drum Kid that I
+                    made is used to improve my skills and progress in
+                    understanding the HTML, CSS, and JavaScript.
+                  </p>
+                </div>
+              </div>
+              <!-- DRUM KIT END -->
+
+              <!-- BATU NIGHT SPECTACULAR START -->
+              <div
+                class="flex flex-col items-center bg-slate-800 gap-x-8 rounded-md px-4 py-4 lg:flex-row"
+              >
+                <div class="shrink-0">
+                  <a
+                    href="https://parsya-batunightspectacular.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src="dist/img/projects/BNS.avif"
+                      alt="BNS Website"
+                      loading="lazy"
+                      class="h-36 w-60 rounded-md transition duration-200 ease-in-out hover:translate-y-1"
+                  /></a>
+                </div>
+                <div>
+                  <div
+                    class="flex flex-col items-center gap-y-2 lg:flex-row gap-x-2"
+                  >
+                    <a
+                      href="https://parsya-batunightspectacular.netlify.app/"
+                      rel="noreferrer"
+                      target="_blank"
+                      class="text-slate-50 hover:text-sky-400"
+                    >
+                      <div class="text-xl font-semibold">
+                        Batu Night Spectacular Website
+                      </div>
+                    </a>
+                    <div class="flex gap-2">
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-fuchsia-400 text-fuchsia-900"
+                      >
+                        HTML
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-amber-400 text-amber-900"
+                      >
+                        CSS
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-green-400 text-green-900"
+                      >
+                        JavaScript
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-amber-400 text-amber-900"
+                      >
+                        Bootstrap
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 text-gray-400">
+                    This website was created for the final project assessment of
+                    Human Computer Interaction course and the technology used,
+                    namely HTML, CSS, JavaScript, PHP. & Bootstrap Framework. I
+                    created this website with the aim of introducing the Batu
+                    Night Spectacular night tour to people outside of Malang who
+                    don't know about this tour.
+                  </p>
+                </div>
+              </div>
+              <!-- BATU NIGHT SPECTACULAR END -->
+
+              <!-- DICE GAME START -->
+              <div
+                class="flex flex-col items-center bg-slate-800 gap-x-8 rounded-md px-4 py-4 lg:flex-row"
+              >
+                <div class="shrink-0">
+                  <a
+                    href="https://parsya-dice-game.netlify.app"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src="dist/img/projects/dice game.avif"
+                      alt="BNS Website"
+                      loading="lazy"
+                      class="h-36 w-60 rounded-md transition duration-200 ease-in-out hover:translate-y-1"
+                  /></a>
+                </div>
+                <div>
+                  <div
+                    class="flex flex-col items-center gap-y-2 lg:flex-row gap-x-2"
+                  >
+                    <a
+                      href="https://parsya-dice-game.netlify.app"
+                      rel="noreferrer"
+                      target="_blank"
+                      class="text-slate-50 hover:text-sky-400"
+                    >
+                      <div class="text-xl font-semibold">Dice Game</div>
+                    </a>
+                    <div class="flex gap-2">
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-fuchsia-400 text-fuchsia-900"
+                      >
+                        HTML
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-amber-400 text-amber-900"
+                      >
+                        CSS
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-green-400 text-green-900"
+                      >
+                        JavaScript
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 text-gray-400">
+                    This Dice Game web is made with simple HTML, CSS, and
+                    JavaScript. The way to play is very simple, by refreshing
+                    the website, then the two dice will be randomized. If player
+                    1 gets the bigger dice then player 1 wins.
+                  </p>
+                </div>
+              </div>
+              <!-- DICE GAME END -->
+
+              <!-- SIMPLE TO DO LIST START -->
+              <div
+                class="flex flex-col items-center bg-slate-800 gap-x-8 rounded-md px-4 py-4 lg:flex-row"
+              >
+                <div class="shrink-0">
+                  <a
+                    href="https://sleepy-mountain-36745.herokuapp.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                    ><img
+                      src="dist/img/projects/todolist.avif"
+                      alt="Simple Todo List"
+                      loading="lazy"
+                      class="h-36 w-60 rounded-md transition duration-200 ease-in-out hover:translate-y-1"
+                  /></a>
+                </div>
+                <div>
+                  <div
+                    class="flex flex-col items-center gap-y-2 lg:flex-row lg:gap-x-2"
+                  >
+                    <a
+                      href="https://sleepy-mountain-36745.herokuapp.com/"
+                      rel="noreferrer"
+                      target="_blank"
+                      class="text-slate-50 hover:text-sky-400"
+                    >
+                      <div class="text-xl font-semibold">Simple To Do List</div>
+                    </a>
+                    <div class="flex gap-2">
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-teal-400 text-teal-900"
+                      >
+                        EJS
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-amber-400 text-amber-900"
+                      >
+                        CSS
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-green-400 text-green-900"
+                      >
+                        JavaScript
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-cyan-400 text-cyan-900"
+                      >
+                        NodeJS
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-lime-400 text-lime-900"
+                      >
+                        Express
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 text-gray-400">
+                    I made this simple to do list to note what things I need to
+                    do / do every day and help my understanding of how to use
+                    EJS Templating, NodeJS, Express, and try to integrate with
+                    the mongoDB library, namely Mongoose
+                  </p>
+                </div>
+              </div>
+              <!-- SIMPLE TO DO LIST END -->
+
+              <!-- SIMON GAME START-->
+              <div
+                class="flex flex-col items-center bg-slate-800 gap-x-8 rounded-md px-4 py-4 lg:flex-row"
+              >
+                <div class="shrink-0">
+                  <a
+                    href="https://parsya-simon-game.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                    ><img
+                      src="dist/img/projects/Simon Game.avif"
+                      alt="Simple Todo List"
+                      loading="lazy"
+                      class="h-36 w-60 rounded-md transition duration-200 ease-in-out hover:translate-y-1"
+                  /></a>
+                </div>
+                <div>
+                  <div
+                    class="flex flex-col items-center gap-y-2 lg:flex-row lg:gap-x-2"
+                  >
+                    <a
+                      href="https://parsya-simon-game.netlify.app/"
+                      rel="noreferrer"
+                      target="_blank"
+                      class="text-slate-50 hover:text-sky-400"
+                    >
+                      <div class="text-xl font-semibold">Simon Game</div>
+                    </a>
+                    <div class="flex gap-2">
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-fuchsia-400 text-fuchsia-900"
+                      >
+                        HTML
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-amber-400 text-amber-900"
+                      >
+                        CSS
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-green-400 text-green-900"
+                      >
+                        JavaScript
+                      </div>
+                      <div
+                        class="rounded-md px-2 py-1 text-xs font-semibold bg-lime-400 text-lime-900"
+                      >
+                        jQuery
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 text-gray-400">
+                    I created this website to complete the challenges given by
+                    the web development course that I took. The Simon game that
+                    I made is used to improve my skills and progress in
+                    understanding the JavaScript library, namely jQuery.
+                  </p>
+                </div>
+              </div>
+              <!-- SIMON GAME END -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Section End -->
+
+    <!-- Certificates Section Start -->
+
+    <section id="certificates" class="pt-16">
+      <div class="container">
+        <div class="w-full">
+          <div class="mx-auto max-w-screen-xl px-4 py-10">
+            <h3 class="text-slate-50 font-bold text-2xl">
+              My <span class="text-sky-400">Certificates</span>
+            </h3>
+            <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mt-5">
+              <!-- BASIC SPREADSHEET CETIF START -->
+              <a
+                href="https://buildwithangga.com/talent/mahatmadityafrs88258/basic-spreadsheets-for-data-analysis"
+                rel="noreferrer"
+                target="_blank"
+                class="hover:translate-y-1 flex"
+              >
+                <div class="overflow-hidden rounded-md bg-slate-800">
+                  <div class="aspect-auto">
+                    <img
+                      src="dist/img/certification/BWA.avif"
+                      alt=""
+                      class="h-full w-full object-cover object-center"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="px-4 pt-4 pb-6 text-center">
+                    <h2 class="text-xl font-semibold text-slate-50">
+                      Basic Spreadsheet
+                    </h2>
+                    <p class="mt-1 text-xs text-gray-400">October 26, 2022</p>
+                  </div>
+                </div>
+              </a>
+              <!-- BASIC SPREADSHEET CETIF END -->
+
+              <!-- SQL ADVANCED CERTIF START -->
+              <a
+                href="https://www.hackerrank.com/certificates/c21319b7bca9"
+                rel="noreferrer"
+                target="_blank"
+                class="hover:translate-y-1 flex"
+              >
+                <div class="overflow-hidden rounded-md bg-slate-800">
+                  <div class="aspect-auto">
+                    <img
+                      src="dist/img/certification/advanced-sql.avif"
+                      alt=""
+                      class="h-full w-full object-cover object-center"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="px-4 pt-4 pb-6 text-center">
+                    <h2 class="text-xl font-semibold text-slate-50">
+                      SQL (Advanced)
+                    </h2>
+                    <p class="mt-1 text-xs text-gray-400">Oct 28, 2022</p>
+                  </div>
+                </div>
+              </a>
+              <!-- SQL ADVANCED CERTIF END -->
+
+              <!-- PostgreSQL CERTIF START -->
+              <a
+                href="https://www.udemy.com/certificate/UC-1cae9074-357b-4d3c-a0a2-9b184a38e67c/"
+                rel="noreferrer"
+                target="_blank"
+                class="hover:translate-y-1 flex"
+              >
+                <div class="overflow-hidden rounded-md bg-slate-800">
+                  <div class="aspect-auto">
+                    <img
+                      src="dist/img/certification/postgreeql udemy.avif"
+                      alt=""
+                      class="h-full w-full object-cover object-center"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="px-4 pt-4 pb-6 text-center">
+                    <h2 class="text-xl font-semibold text-slate-50">
+                      PostgreSQL
+                    </h2>
+                    <p class="mt-1 text-xs text-gray-400">Jan 25, 2022</p>
+                  </div>
+                </div>
+              </a>
+              <!-- PostgreSQL CERTIF END -->
+
+              <!-- CSS CERTIF SOLOLEARN START -->
+              <a
+                href="https://www.sololearn.com/certificates/CT-PPOFXQB3"
+                rel="noreferrer"
+                target="_blank"
+                class="hover:translate-y-1 flex"
+              >
+                <div class="overflow-hidden rounded-md bg-slate-800">
+                  <div class="aspect-auto">
+                    <img
+                      src="dist/img/certification/css.avif"
+                      alt=""
+                      class="h-full w-full object-cover object-center"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="px-4 pt-4 pb-6 text-center">
+                    <h2 class="text-xl font-semibold text-slate-50">CSS</h2>
+                    <p class="mt-1 text-xs text-gray-400">November 10, 2022</p>
+                  </div>
+                </div>
+              </a>
+              <!-- CSS CERTIF SOLOLEARN END -->
+
+              <!-- HTML CERTIF START -->
+              <a
+                href="https://www.sololearn.com/certificates/CT-1UGVJZYL"
+                rel="noreferrer"
+                target="_blank"
+                class="hover:translate-y-1 flex"
+              >
+                <div class="overflow-hidden rounded-md bg-slate-800">
+                  <div class="aspect-auto">
+                    <img
+                      src="dist/img/certification/HTML-sololearn.avif"
+                      alt=""
+                      class="h-full w-full object-cover object-center"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="px-4 pt-4 pb-6 text-center">
+                    <h2 class="text-xl font-semibold text-slate-50">HTML</h2>
+                    <p class="mt-1 text-xs text-gray-400">May 20, 2019</p>
+                  </div>
+                </div>
+              </a>
+              <!-- HTML CERTIF END -->
+
+              <!-- WEB DESIGN CERTIF START -->
+              <a
+                href="https://www.freecodecamp.org/certification/mahatmaditya/responsive-web-design"
+                rel="noreferrer"
+                target="_blank"
+                class="hover:translate-y-1 flex"
+              >
+                <div class="overflow-hidden rounded-md bg-slate-800">
+                  <div class="aspect-auto">
+                    <img
+                      src="dist/img/certification/web design fcc.avif"
+                      alt=""
+                      class="h-full w-full object-cover object-center"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="px-4 pt-4 pb-6 text-center">
+                    <h2 class="text-xl font-semibold text-slate-50">
+                      Web Design
+                    </h2>
+                    <p class="mt-1 text-xs text-gray-400">August 31, 2021</p>
+                  </div>
+                </div>
+              </a>
+              <!-- WEB DESIGN CERTIF END -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section End -->
+
+    <!-- Footer Section Start -->
+
+    <footer class="pt-16 pb-6">
+      <div class="container">
+        <div class="flex flex-col">
+          <div class="w-full self-center px-4">
+            <div class="border-t border-gray-500 pt-5">
+              <div class="text-sm text-gray-200">
+                © Copyright 2022
+                <a href="#home" class="font-semibold text-sky-400"
+                  >Mahatmaditya FRS</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Section End -->
+
+    <!-- javaScript -->
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
